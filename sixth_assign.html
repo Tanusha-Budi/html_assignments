@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <title>Javascript</title>
+    <style>
+        .bt {
+            width: 90px;
+            height: 40px;
+            background-color: purple;
+            color: #fff;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<center>
+
+    <body>
+
+        <div id="box" style=" background-color: cyan;
+            height: 300px;
+            width: 300px;">
+            <h3 style="font-size: 30px ;">Javascript</h3>
+        </div>
+
+        <button class="bt" onclick="height()">height change</button>
+        <button class="bt" onclick="width()">width change</button>
+        <button class="bt" onclick="bgcolor()">bgcolor change</button>
+        <button class="bt" onclick="txtcolor()">txtcolor change</button>
+        <script>
+            function height() {
+                document.getElementById("box").style.height = "350px";
+            }
+            function width() {
+                document.getElementById("box").style.width = "350px";
+            }
+            function bgcolor() {
+                document.getElementById("box").style.background = "green";
+            }
+            function txtcolor() {
+                document.getElementById("box").style.color = "red";
+            }
+
+        </script>
+    </body>
+</center>
+
+</html>

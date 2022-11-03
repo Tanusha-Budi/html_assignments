@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>Assignment</title>
+    <style>
+        .container {
+            width: 400px;
+            height: 300px;
+            margin: 150px auto auto auto;
+            background-color: red;
+            display: grid;
+            place-items: center;
+            grid-template-areas: "inner-div";
+            text-align: start;
+        }
+
+        .inner{
+            height: 300px;
+            width: 400px;
+            font-size: 23px ;
+            grid-area: inner-div;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            padding-left: 10px;
+        }
+
+        .inner1 {
+            height: 230px;
+            width: 320px;
+            grid-area: inner-div;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            font-size: 23px;
+            text-align: justify;
+            padding-left: 20px;
+            
+        }
+
+        .inner2 {
+            height: 170px;
+            width: 250px;
+            grid-area: inner-div;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            font-size: 23px;
+            padding-left: 20px;
+            
+        }
+
+        .inner3 {
+            height: 65px;
+            width: 170px;
+            grid-area: inner-div;
+            border-style: solid;
+            border-color: black;
+            border-width: 3px;
+            font-size: 27px;
+            text-align: center;
+            font-weight: 540;
+            vertical-align: middle;
+            line-height:65px ;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner" style="background-color: red;">margin</div>
+        <div class="inner1" style="background-color: pink;">border</div>
+        <div class="inner2" style="background-color: yellow;">padding</div>
+        <div class="inner3" style="background-color: green;">1234 x 1234</div>
+    </div>
+</body>
+
+</html>
